@@ -26,10 +26,6 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-  .pc-show {
-    font-size: 20px;
-    color: #79B8FF;
-  }
   .mobile-show {
     display: none;
   }
@@ -37,8 +33,9 @@ export default {
     .pc-show{
       display: none;
     }
-    .mobile-show{
+    .mobile-show {
       display: block;
     }
   }
+    
 </style>

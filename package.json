@@ -1,8 +1,8 @@
 {
-  "name": "temp-ui",
+  "name": "news-temp",
   "description": "A components of pc base on vue2.X",
-  "version": "1.0.0",
-  "author": "yuwenbinjie <yuwenbinjie@163.com>",
+  "version": "1.0.1",
+  "author": "lujing99 <2539872094@qq.com>",
   "main": "dist/temp.js",
   "license": "MIT",
   "private": false,
@@ -18,11 +18,11 @@
     "last 2 versions",
     "not ie <= 8"
   ],
-  "keywords": [
-    "vue2.x",
-    "components"
+ "keywords": [
+  "vue2.x",
+  "components"
   ],
-  "homepage": "",
+  "homepage": "https://github.com/lujing312/temp.git",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",

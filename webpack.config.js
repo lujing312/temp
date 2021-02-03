@@ -4,14 +4,14 @@ const ExtractTextPlugin = require ('extract-text-webpack-plugin')
 
 module.exports = {
   entry: {
-    // style: './src/style.js',
+    style: './src/style.js',
     temp: './src/index.js',
   },
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
     filename: '[name].js',
-    library: 'temp',
+    library: 'Temp',
     libraryTarget: 'umd'
   },
   module: {
@@ -75,7 +75,7 @@ if (process.env.NODE_ENV === 'production') {
   module.exports.devtool = '#source-map'
   // http://vue-loader.vuejs.org/en/workflow/production.html
   module.exports.plugins = (module.exports.plugins || []).concat([
-    // new ExtractTextPlugin("temp.css",{allChunks: true}),
+    new ExtractTextPlugin("temp.css",{allChunks: true}),
     new webpack.DefinePlugin({
       'process.env': {
         NODE_ENV: '"production"'
