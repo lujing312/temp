@@ -1,9 +1,6 @@
-import Button from './Button/Button.vue'
-import Modal from './Modal/Modal.vue'
 import Render from './Render/Render.vue'
-
+import One from './template/One.vue'
 export {
-  Button,
-  Modal,
-  Render
+  Render,
+  One
 }

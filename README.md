@@ -1,6 +1,6 @@
 # temp-ui
 
-> 基于Vue2.x的前端组件库
+> 基于Vue2.x的新闻模板渲染
 
 # 项目目录
 ``` bash
@@ -48,3 +48,7 @@ or
   npm run build
 ```
 
+
+## 模板解析
+## temp-one  首位大图模板 参数 isPc:Boolean  tempData: Object  模板数据
+## temp-six  新闻模板 参数 isPc:Boolean  tempData: Object  模板数据

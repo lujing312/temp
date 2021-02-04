@@ -1,18 +1,18 @@
+
 <script>
 export default {
   name: 'Render',
   props: {
     code: {
       type: [Number, String],
-      default: 1001
+      default: 'One'
     },
     attr: {
       type: [Number, String, Object, Array],
       default: () => {}
-    },
+    }
   },
   methods: {
-
   },
   render(createElement) {
     return createElement(
@@ -25,3 +25,4 @@ export default {
   }
 }
 </script>
+

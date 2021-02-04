@@ -5,9 +5,6 @@ const mixin = {
         this.data[item] = this.$attrs[item]
       }
     })
-  },
-  methods: {
-    
   }
 }
 
