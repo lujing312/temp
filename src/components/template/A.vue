@@ -1,10 +1,10 @@
 <template>
   <div :class="data.isPc ?'':'isMobile'">
     <div class="pc-show">
-      PC模板
+      PC模板A
     </div>
-    <div class="mobile-show">
-      <div class="test">h5模板{{data.tempData.title}}</div>
+    <div class="mobile-show" :style="{width: data.width}" >
+      <div class="test">h5模板A{{data.tempData.title}}</div>
     </div>
   </div>
 </template>
@@ -16,7 +16,9 @@ export default {
     return {
       data: {
         isPc: true,
-        tempData: {}
+        router: '',
+        width: '100%',
+        tempData: {},
       }
     }
   },

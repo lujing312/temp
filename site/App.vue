@@ -13,7 +13,7 @@ export default {
   name: 'app',
   data () {
     return {
-      code: 'One',
+      code: 'A',
       obj: {
         isPc: false,
         tempData: {

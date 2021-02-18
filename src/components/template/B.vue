@@ -1,10 +1,10 @@
 <template>
-  <div :class="data.isPc ?'':'isMobile'">
+  <div :class="data.isPc ? '':'isMobile'">
     <div class="pc-show">
-      PC新闻模板
+      PC新闻模板BBB
     </div>
     <div class="mobile-show">
-      <div class="test">h5新闻模板</div>
+      <div class="test">h5新闻模板BB</div>
     </div>
   </div>
 </template>

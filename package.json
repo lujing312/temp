@@ -1,7 +1,7 @@
 {
   "name": "news-temp",
   "description": "A components of pc base on vue2.X",
-  "version": "1.0.31",
+  "version": "1.0.32",
   "author": "lujing99 <2539872094@qq.com>",
   "main": "dist/temp.js",
   "license": "MIT",
